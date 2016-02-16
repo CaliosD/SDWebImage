@@ -33,7 +33,7 @@ extern NSString *const SDWebImageDownloadFinishNotification;
 @property (nonatomic, assign) BOOL shouldUseCredentialStorage;
 
 /**
- * The credential used for authentication challenges in `-connection:didReceiveAuthenticationChallenge:`.
+ * The credential used for authentication challenges in `-connection:willSendRequestForAuthenticationChallenge:`.
  *
  * This will be overridden by any shared credentials that exist for the username or password of the request URL, if present.
  */
